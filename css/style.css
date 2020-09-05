@@ -105,11 +105,73 @@ a {
 }
 
 .wave {
+    margin-bottom: -22px;
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
 }
+
+/* -------------------------------Acerca de mi ------------------------------------------------------------*/
+.acercaDeMi {
+    font-family: Roboto Mono;
+    margin-top: -20px;
+    background-color: #25262a;
+    height: 100vh;
+    width: 100vw;
+    color: #ffffff;
+}
+
+blockquote {
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #2bd776;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.AcDeMi-text {
+    position: absolute;
+    width: 100%;
+}
+
+.AcDeMi-mov {
+    visibility: hidden;
+}
+.AcDeMi-mov .card-panel {
+    background-color: #25262a;
+}
+
+.AcDeMi-desk h4 {
+    position: relative;
+    padding: 8px;
+    font-size: 20px;
+    background: #2bd776;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-top: 30px;
+    width: 30%;
+}
+
+.AcDeMi-mov h4 {
+    position: relative;
+    padding: 8px;
+    font-size: 20px;
+    background: #2bd776;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-top: 30px;
+    width: 30%;
+}
+
+/* -------------------------------Acerca de mi ------------------------------------------------------------*/
+
+/* ------------------------------Responsive------------------------------------------------------------*/
+
 @media screen and (max-width: 1600px) {
     .info {
         margin-top: -1px;
@@ -124,5 +186,16 @@ a {
         margin-top: 1%;
         margin-left: 30%;
     }
+    blockquote {
+        font-size: 30px;
+    }
 }
-/* -------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 700px) {
+    .AcDeMi-desk {
+        visibility: hidden;
+    }
+    .AcDeMi-mov {
+        visibility: visible;
+    }
+}
