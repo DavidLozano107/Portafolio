@@ -1,0 +1,62 @@
+/* Menu ----------------------------------------------------------------------------------------------------*/
+
+body {
+    background-color: #2d2e32;
+    font-family: Roboto Mono;
+}
+.nav-wrapper {
+    background-color: #2d2e32;
+}
+.brand-logo {
+    font-family: Lobster;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+}
+a {
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3vw;
+}
+.img-svg {
+    width: 22px;
+    margin-bottom: -6px;
+}
+
+.email {
+    margin-right: 25px;
+}
+
+.btn-floating i {
+    color: #2bd776;
+}
+
+/* ------------------------------------------------  ------- Menu ----------------------------------*/
+
+/* ------------------------------------------------  ------- About me ----------------------------------*/
+.AboutMe {
+    height: 100vh;
+}
+.profile {
+    position: absolute;
+    height: 100%;
+    top: 40%;
+    font-size: 1px;
+}
+.profile h4 {
+    position: absolute;
+    padding: 8px;
+    font-size: 21em;
+    background: #2bd776;
+    border-radius: 10px;
+    color: #000;
+    margin-bottom: 5px;
+}
+.p1 {
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: #ffffff;
+}
