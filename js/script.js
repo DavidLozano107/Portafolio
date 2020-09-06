@@ -1,4 +1,4 @@
-const x = window.matchMedia("(max-width: 1600px)");
+const x = window.matchMedia("(max-width: 1400px)");
 function cambiarImg(x) {
     if (x.matches) {
         // If media query matches
