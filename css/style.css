@@ -3,6 +3,7 @@
 @import "principal.css";
 @import "AcercaDeMi.css";
 @import "habilidades.css";
+@import "portafolio.css";
 /* ------------------------------Responsive------------------------------------------------------------*/
 @media screen and (max-width: 1600px) {
     .info {
