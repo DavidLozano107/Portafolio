@@ -1,72 +1,105 @@
 /* ------------------------------------------------  -------Principal ----------------------------------*/
 .main {
-  height: 100vh;
-  background-color: #2d2e32;
+    height: 100vh;
+    background-color: #2d2e32;
 }
 
+.active {
+    color: #2bd776 !important;
+}
 .profile {
-  position: absolute;
-  /* height: 60%; */
-  top: 20%;
-  font-size: 1px;
+    position: absolute;
+    /* height: 60%; */
+    top: 20%;
+    font-size: 1px;
 }
 
 .parrafo1 {
-  font-family: Roboto Mono;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 56px;
-  color: #ffffff;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 56px;
+    color: #ffffff;
 }
 .profile-credito {
-  font-weight: lighter;
-  font-size: 15px;
-  color: #ffffff;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #ffffff;
 }
 
 .parrafo2 {
-  font-family: Roboto Mono;
-  color: #ffffff;
-  font-style: normal;
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 21px;
-  font-weight: lighter;
-  display: flex;
-  align-items: center;
-  margin-top: -25px;
+    font-family: Roboto Mono;
+    color: #ffffff;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    margin-top: -25px;
 }
 
 .bg-developer {
-  position: relative;
-  display: flex;
-  align-content: center;
+    position: relative;
+    display: flex;
+    align-content: center;
 }
 
 .svg-developer {
+    width: 80;
+    margin-left: 80px;
 }
 
 .info {
-  margin-left: 10%;
-  z-index: 3;
+    margin-left: 10%;
+    z-index: 3;
 }
 
 .info h4 {
-  position: relative;
-  padding: 8px;
-  font-size: 20px;
-  background: #2bd776;
-  border-radius: 10px;
-  color: #000;
-  margin-top: 30px;
-  width: 60%;
+    text-align: center;
+    position: relative;
+    padding: 8px;
+    font-size: 20px;
+    background: #2bd776;
+    border-radius: 10px;
+    color: #000;
+    margin-top: 30px;
+    width: 60%;
+    border: #ffffff 1.5px solid;
+}
+
+.info h4::before {
+    content: "";
+    animation: changingTxt 9s linear infinite;
+}
+
+@keyframes changingTxt {
+    0% {
+        content: "Front-End Developer";
+    }
+    20% {
+        content: "Back-End Developer";
+    }
+    40% {
+        content: "Web Developer";
+    }
+    60% {
+        content: "FullStack JavaScript";
+    }
+    80% {
+        content: "JavaScript Developer";
+    }
+    100% {
+        content: "Phyton Developer";
+    }
 }
 
 .wave {
-  margin-bottom: -22px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+    margin-bottom: -22px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
