@@ -1,13 +1,15 @@
 .contacto {
   color: #fff;
-  margin-top: -20px;
+  margin-top: -40px;
   height: 100vh;
   background-color: #25262a;
 }
 .contacto h3 {
-  margin-top: 20px;
   color: #fff;
   text-decoration: underline;
   text-decoration-color: #2bd776;
   margin-bottom: 15%;
+}
+.contacto form {
+  margin-top: -50px;
 }
